@@ -1,0 +1,20 @@
+.main-menu .sub-menu {
+    position: absolute;
+    top: 5px;
+    left: 170px;
+    z-index: 10;
+    display: none;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fcf8e3;
+}
+
+
+/* Cелектор для подменю, если навести мышь */
+/* на родительский элемент верхнего меню */
+
+.main-menu > a:hover .sub-menu {
+    display: block;
+}
